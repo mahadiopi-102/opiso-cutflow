@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Clock, ExternalLink, User, Calendar, FileText, MessageCircle, DollarSign, CheckCircle2, Plus, Users, X, Briefcase } from 'lucide-react';
+import { ExternalLink, User, Calendar, FileText, MessageCircle, DollarSign, CheckCircle2, Plus, Users, X, Briefcase } from 'lucide-react';
 
 type ProjectStatus = 'To-Do' | 'Assigned' | 'Rough Cut' | 'In Review' | 'Delivered';
 type PaymentStatus = 'Unpaid' | 'Paid';
